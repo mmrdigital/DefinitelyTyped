@@ -118,7 +118,7 @@ declare namespace Ffmpeg {
         sample_aspect_ratio?: string | undefined;
         display_aspect_ratio?: string | undefined;
         pix_fmt?: string | undefined;
-        level?: string | undefined;
+        level?: number | undefined;
         color_range?: string | undefined;
         color_space?: string | undefined;
         color_transfer?: string | undefined;
@@ -133,12 +133,12 @@ declare namespace Ffmpeg {
         time_base?: string | undefined;
         start_pts?: number | undefined;
         start_time?: number | undefined;
-        duration_ts?: string | undefined;
-        duration?: string | undefined;
-        bit_rate?: string | undefined;
-        max_bit_rate?: string | undefined;
-        bits_per_raw_sample?: string | undefined;
-        nb_frames?: string | undefined;
+        duration_ts?: number | undefined;
+        duration?: number | undefined;
+        bit_rate?: number | undefined;
+        max_bit_rate?: number | undefined;
+        bits_per_raw_sample?: number | undefined;
+        nb_frames?: number | undefined;
         nb_read_frames?: string | undefined;
         nb_read_packets?: string | undefined;
         sample_fmt?: string | undefined;
